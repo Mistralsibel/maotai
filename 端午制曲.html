@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>端午制曲</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+      
+    html,
+    body {
+      width: 640px;
+      height: 1030px;
+      margin: 0px auto;
+      overflow: hidden;
+      position: relative;
+      background-image: url("历史感背景图.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .container{
+      width:100%;
+      height:100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      background-color: #996600;
+      width:590px;
+      height:130px;
+      line-height: 20px;
+      color: #FFF;
+      padding: 0px 25px;
+    }
+    .content{
+        width:100%;
+        height:330px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .end{
+        width:100%;
+        height:330px; 
+        position: relative;
+        display: inline-block;   
+    }
+    .left{
+      position: relative;
+      left:10px;
+      z-index:2;
+      opacity: 0.8;
+      
+    }
+    .right{
+      margin-top:40px;
+      position: absolute;
+      left:100px;
+      z-index:1;
+      opacity: 0.9;
+    }
+    .left2{
+      position: absolute;
+      left:440px;
+      top:25px;
+      z-index:1;
+    }
+    .right2{
+      position: absolute;
+      left:530px;
+      top:155px;
+      z-index:2;
+      cursor: pointer;
+    }
+    
+  .dialog-box {
+    position: absolute;
+    left: -500px; 
+    top: 0;
+    width: 450px; 
+    background-color:rgb(250, 249, 222); 
+    border: 1px solid #ccc; 
+    border-radius: 15px;
+    padding: 10px;
+    
+    display: none; 
+}
+.right2:hover {
+   box-shadow: 0px 0px 15px #e2d849;
+   border-radius: 50%;
+   
+} 
+.right2:hover .dialog-box {
+  display: block; 
+  
+}
+
+  </style>
+  </head>
+  
+    <body>
+      
+        <div class="container">
+          <div class="header">
+            <h3>端午制曲：</h3>
+            酒曲，就是将酿酒原料中的淀粉转化成为糖的一种物质。这种物质通常是用发霉的谷物，其中的霉菌既是酒曲。霉菌所分泌的酶可以将谷物中的淀粉和蛋白质转化成为糖。糖在酵母的作用下发酵成为酒精。
+          </div>
+
+          <div class="content">
+                <div><video src="C:\Users\star\Videos\端午制曲.mp4" controls="controls" width="500" height="280"></video>
+                </div>
+          </div>
+
+            <div class="end">
+              <img class="left" src="端午2.png" width="145" height="330" alt="duanwu">
+              <img class="right" src="C:\Users\star\Pictures\茅台\古风龙.png" width="140" height="330" alt="duanwu">
+                
+              <div class="left2">
+              <img src="C:\Users\star\Pictures\茅台\制酒师.png" width="200" height="330" alt="gongren">
+              </div>
+
+              <div class="right2">
+                <img src="C:\Users\star\Pictures\茅台\黄色圆标.png" width="45" height="45" alt="cursor" > 
+                <div class="dialog-box">
+                  茅台的酿酒先人们选择端午制曲，一是用于制曲的冬小麦在这个时候正好褪去了青涩的水分，用于制曲刚刚好，
+                  二是来端午时节的高温有利于微生物的生长，这些微生物混入曲块中分泌出大量的酶，可以加速淀粉，蛋白质等转化为糖分，
+                  三是因为这时候正是一种神奇的小生物 ～曲蚊，最为活跃的时候。
+                </div>
+              </div>
+            </div>
+    </body>
+  </html>
+  
